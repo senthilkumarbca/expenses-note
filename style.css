@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #efefef;
+}
+#header-section{
+    background: #fff;
+    height: 20vh;
+}
+#body-section{
+    margin: 10px 0;
+    /* background: red; */
+}
+#expenses-div{
+    /* background: #fff; */
+}
+.expense-element{
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    border-bottom: 3px solid #efefef;
+    justify-content: space-between;
+}
+.expense-day{
+    background: #bde6f8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}

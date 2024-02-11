@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expenses</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Simple Expense notes app</h1>
+    <section id="header-section">
+        <h1>Expenses Notes</h1>
+        <form id="expense-form">
+            <input type="date" name="" id="expense-date-input">
+            <input type="text" name="" id="expense-text-input" placeholder="Expense">
+            <input type="number" name="" id="expense-amt-input" placeholder="Amt">
+            <input type="submit" value="Save">
+        </form>
+    </section>
+    <section id="body-section">
+        <div id="expenses-div">
+            <div class="expense-day">
+                <div class="expense-date">20-08-2023</div>
+                <div class="expense-total">₹100</div>
+            </div>
+            <div class="expense-element" id="expense-element-1">
+                <div class="expense-text">sss</div>
+                <div class="expense-amt">45</div>
+            </div>
+            <div class="expense-element" id="expense-element-1">
+                <div class="expense-text">sss</div>
+                <div class="expense-amt">45</div>
+            </div>
+        </div>
+    </section>
     <script src="index.js"></script>
 </body>
 </html>
